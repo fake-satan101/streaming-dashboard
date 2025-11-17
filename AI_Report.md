@@ -1,7 +1,7 @@
 # AI Development Report
 
 ## AI Tools Used
-- ChatGPT (OpenAI) - For code generation, debugging, and optimization
+- Deep seek - For code generation, debugging, and optimization
 - GitHub Copilot - For code completion and suggestions
 
 ## AI-Generated Components
@@ -18,8 +18,8 @@
 - Error handling strategies
 
 ## Live Deployment
-- Vercel URL: [Your Vercel URL here]
-- GitHub Repository: [Your GitHub repo URL here]
+- Vercel URL: https://streaming-dashboard-sepia-zeta.vercel.app
+- GitHub Repository: https://github.com/fake-satan101/streaming-dashboard
 
 ## Time Spent
 - Setup: 1 hour
