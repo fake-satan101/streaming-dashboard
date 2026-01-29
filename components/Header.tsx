@@ -56,7 +56,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-black bg-opacity-90 backdrop-blur-sm">
       <nav className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold text-red-600 hover:text-red-500 transition">
-          STREAMFLIX
+          STREAMCLIX
         </Link>
         
         <div className="flex space-x-6">
