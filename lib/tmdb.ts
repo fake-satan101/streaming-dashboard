@@ -89,7 +89,7 @@ class TMDBConfig {
 
   hasValidApiKey(): boolean {
     const key = this.getApiKey();
-    return !!(key && key.length > 10 && key !== 'c8c31fb7fb86283f02126c86a38d9a2d');
+    return !!(key && key.length > 10 && key !== process.env.TMDB_API_KEY);
   }
 }
 
