@@ -53,7 +53,7 @@ export const TV_GENRES = {
   WESTERN: 37,
 };
 
-// Configuration
+// Config
 class TMDBConfig {
   private static instance: TMDBConfig;
   private apiKey: string = '';
