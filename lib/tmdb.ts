@@ -76,7 +76,7 @@ class TMDBConfig {
     if (!this.apiKey && !this.hasCheckedEnv) {
       this.hasCheckedEnv = true;
       this.apiKey = process.env.TMDB_API_KEY || '';
-      
+      console.log("api_key:"+process.env.TMDB_API_KEY);
       if (!this.apiKey) {
         console.error('❌ TMDB_API_KEY is not configured!');
         console.error('💡 Please add TMDB_API_KEY to your environment variables');
